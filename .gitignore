@@ -7,7 +7,7 @@
 /backend_sanity/node_modules
 # testing
 /coverage
-
+.env
 # production
 /build
 
