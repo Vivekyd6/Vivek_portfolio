@@ -30,7 +30,7 @@ const Testimonial = () => {
   return (
     <>
       {testimonials.length && (
-        <>
+        <div id="testimonials">
           <div className="app__testimonials-item app__flex">
             <img src={urlFor(testimonials[currIndex].imgurl)} alt={test.name} />
             <div className="app__testimonial-content">
@@ -51,7 +51,7 @@ const Testimonial = () => {
               <HiChevronRight />
             </div>
           </div>
-        </>
+          </div>
       )}
     </>
   );

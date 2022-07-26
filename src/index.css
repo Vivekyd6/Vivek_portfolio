@@ -12,6 +12,11 @@
   --white-color: #ffffff;
 }
 
+body{
+  scroll-behavior: smooth;
+}
+
+
 * {
   box-sizing: border-box;
   padding: 0;
